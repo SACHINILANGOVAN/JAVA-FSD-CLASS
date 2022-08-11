@@ -1,0 +1,5 @@
+1.learning about the commands of git hub.
+ mkdir,ls,cd etc..
+2.how to create repository
+3.how to make dual commitment 
+4.how to do initiate,commit,push and etc...
