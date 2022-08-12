@@ -1,0 +1,5 @@
+basics of java
+star pattern 
+oops basics
+intellij basics 
+some example app models
