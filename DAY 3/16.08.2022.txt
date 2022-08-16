@@ -1,0 +1,11 @@
+employee details program with get set method
+three constructor two get set method and
+ using five constructor
+some calculator programs
+
+tasks:
+1.print hello world using interface,abstract class,single level inheritance,arrays,
+method overloading and overriding
+2.diff b/w protect and default
+3.use of super kew words
+4.final keywords in method and class
