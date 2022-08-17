@@ -6,12 +6,17 @@ public class Atm {
         MenuOptions menuObj = new MenuOptions(scanner);
 
         Utils.welcomeMessage();
-        Utils.pin = Utils.enterYourPin(scanner);
+        int pin = Utils.enterYourPin(scanner);
 
-        if (Utils.pin != Utils.arunPin || Utils.pin != Utils.kumarPin) {
-            System.out.println("INVALID PIN!!!");
+        if (pin == Utils.arunPin) {
+            Utils.balance = Utils.arunBalance;
+        } else if (pin == Utils.kumarPin) {
+            Utils.balance = Utils.kumarBalance;
+        } else {
+            System.out.println("Invalid Pin!!!");
             System.exit(0);
         }
+
         while (true) {
             menuObj.displayMenu();
             int userChoice = menuObj.getUserOption();
