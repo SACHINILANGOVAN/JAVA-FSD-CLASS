@@ -1,0 +1,16 @@
+topics covered:
+1.tightly coupled
+2.loosely coupled
+3.component & auto wired
+4.primary
+5.constructor and setter injection
+6.auto wiring by name
+7.qualifier
+8.bean scope
+9.complex scope
+10.component scan
+11.lifecycle of a bean
+12.CDI
+13.without spring boot
+14.XML configuration
+15.git branching
