@@ -1,0 +1,12 @@
+Topics Covered:
+
+1. Spring-Retake
+2. SpringBoot
+    Autoconfiguration
+    WebService
+    Auto controller
+
+Project:
+
+1. springboot - ToDo
+2. SpringBoot Basic Exercises
