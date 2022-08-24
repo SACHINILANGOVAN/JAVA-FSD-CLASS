@@ -12,7 +12,6 @@ import java.util.ArrayList;
 public class ToDoServiceImpl {
     @Autowired
     private ToDoRepository toDoRepository;
-    private ArrayList<ToDo> toDos;
 
     public void addTodo(ToDo toDo) {
         ArrayList<ToDo> toDos = toDoRepository.getToDos();
@@ -20,16 +19,16 @@ public class ToDoServiceImpl {
     }
 
     public void viewToDo() {
-        for (ToDo toDo1 : toDos) {
-            System.out.println(toDo1.getId() + "." + toDo1.getName() + "complete status :"
-                    + (toDo1.isCompleted() ? "YES" : "NO"));
+        for (ToDo toDo : toDoRepository.getToDos() ) {
+            System.out.println(toDo.getId() + "." + toDo.getName() + "complete status :"
+                    + (toDo.isCompleted() ? "YES" : "NO"));
         }
     }
 
     public void updateToDo(int id) {
-        for (ToDo toDo2 : toDos) {
-            if (id == toDo2.getId()) {
-                toDo2.setCompleted(true);
+        for (ToDo toDo : toDoRepository.getToDos()) {
+            if (id == toDo.getId()) {
+                toDo.setCompleted(true);
                 break;
             }
 
@@ -37,9 +36,9 @@ public class ToDoServiceImpl {
     }
 
     public void removeToDo(int id) {
-        for (ToDo toDo2 : toDoRepository.getToDos()) {
-            if (id == toDo2.getId()) {
-                toDoRepository.getToDos().remove(toDo2);
+        for (ToDo toDo: toDoRepository.getToDos()) {
+            if (id == toDo.getId()) {
+                toDoRepository.getToDos().remove(toDo);
             }
 
         }

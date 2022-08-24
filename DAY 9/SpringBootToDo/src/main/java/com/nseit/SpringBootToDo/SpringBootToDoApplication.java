@@ -2,12 +2,14 @@ package com.nseit.SpringBootToDo;
 
 import com.nseit.SpringBootToDo.model.ToDo;
 import com.nseit.SpringBootToDo.service.ToDoServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class SpringBootToDoApplication implements CommandLineRunner {
+    @Autowired
     private ToDoServiceImpl toDoService;
 
     public static void main(String[] args) {
@@ -25,6 +27,7 @@ public class SpringBootToDoApplication implements CommandLineRunner {
         toDoService.addTodo(toDo2);
 
         toDoService.viewToDo();
+
         toDoService.updateToDo(1);
         toDoService.removeToDo(2);
         toDoService.viewToDo();
