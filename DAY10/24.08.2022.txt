@@ -1,0 +1,29 @@
+jpa & rest
+repository annotation
+authentication and authorization
+basic testing with postman
+rest controller
+stereotypes
+annotation
+actuator
+CRUD application and operation
+profile specific properties
+memory authentication
+conditional and auto configuration
+repository annotation
+spring data
+JPA
+REST
+profiles and logging
+setter and getter injection
+
+
+
+
+Tasks:
+
+
+
+todo using java
+todo using spring boot
+todo with JPA
