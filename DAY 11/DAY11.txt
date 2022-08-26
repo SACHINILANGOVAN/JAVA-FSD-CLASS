@@ -1,0 +1,18 @@
+Topics Covered
+
+
+
+Webflux
+Reactive Mango
+Reactive types:
+    ->Flux
+    ->Mono
+Jpa Entity Relationships
+
+
+
+Tasks Covered
+
+
+
+Program using Jpa entity Relationships
