@@ -1,0 +1,30 @@
+Topics covered:
+Java Script:
+-variables
+-constant
+-primitive types
+-Dynamic language
+-nested obj
+-arrays
+-function
+-types of function
+-conditional
+-loops
+-hoisting
+-literals
+-destructing
+-spread
+-rest
+-closure
+-default parameters
+-async
+-map
+-filter
+-reduce
+-ecma script
+
+completed task:
+created university website using html5 and css3
+
+given task:
+portfolio
