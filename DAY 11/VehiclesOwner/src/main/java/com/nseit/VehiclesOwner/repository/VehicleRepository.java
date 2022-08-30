@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface VehicleRepository {
-    public interface ownerRepository extends JpaRepository<VehicleRepository,Integer> {
+    public interface vehicleRepository extends JpaRepository<VehicleRepository,Integer> {
 
     }
 }

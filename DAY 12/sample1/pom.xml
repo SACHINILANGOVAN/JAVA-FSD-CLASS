@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.nseit</groupId>
-	<artifactId>sampletodo</artifactId>
+	<artifactId>sample1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sampletodo</name>
+	<name>sample1</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>18</java.version>

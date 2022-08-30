@@ -1,0 +1,7 @@
+1.Microservice
+Edureka server
+API Gateway
+Load Balancing
+Reiclience fort
+2.Monolithic Application
+3.MySql Installation Usage
