@@ -1,0 +1,25 @@
+Topics Covered
+Flex concepts
+    Justify content
+    Align items
+    Align self
+    Flex direction and column
+    centering element
+    flex warp
+    Ordering
+    Flex grow,shrink basis
+Bootstrap 5
+    Spacing
+    Sizing
+    Text position
+    Accordian
+    Alert
+    Badges
+    Button
+    Card
+    Carousel
+    Modal
+    Navbar
+    Pagination
+Task
+Flipkart menubar using HTML and CSS, FLEX and Bootstrap
