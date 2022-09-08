@@ -1,0 +1,5 @@
+Project Covered:
+	i. Spring Boot Security.
+	ii. API Response.
+	iii. Exception Handling.
+Completed: 20%
