@@ -1,0 +1,11 @@
+Topics Covered:
+ 1) Unit Testing
+    *) software quality basic of unit testing
+    *) Junit examples & Annotation used in Junit
+    *) Stub, Mocks(Mocking Database operations)
+    *) Sonar cube setup and  Validation
+ 2) React Js
+    *) Routing and examples
+
+Project
+  UI-50% Completed
